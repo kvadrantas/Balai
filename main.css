@@ -1,0 +1,64 @@
+body {
+  text-align: center;
+}
+
+.print-list-container {
+  margin-top: 50px;
+  width: 100%;
+  height: 551px;
+  overflow-y: scroll;
+  text-align: center;
+}
+
+.table {
+  display: inline-block;
+}
+
+.row .cell:first-child {
+  border-left: 1px solid grey;
+}
+
+.cell {
+  overflow-x: hidden;
+  padding: 5px;
+  display: table-cell;
+  width: 45px;
+  border-right: 1px solid grey;
+  border-bottom: 1px solid grey;
+  padding: 5px;
+}
+
+.row {
+  display: table-row;
+}
+
+.th {
+  border-top: 1px solid grey;
+  font-weight: bold;
+  background: rgb(212, 212, 242);
+}
+
+.sticky {
+  box-sizing: border-box;
+  position: absolute;
+  top: 298px;
+}
+
+label {
+  display: block;
+  font-size: 20px;
+  color: #0c1b61;
+}
+
+input {
+  font-size: 18px;
+  color: rgb(77 57 57);
+  margin-top: 5px;
+  width: 90px;
+  height: 30px;
+  margin-bottom: 25px;
+}
+
+.rezultatas {
+  font-size: 60px;
+}

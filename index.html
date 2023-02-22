@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="main.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="top-pane">
+      <div>
+        <label for="maxTaskai">Max taškų</label>
+        <input id="maxTaskai" type="number" min="1" max="300" />
+      </div>
+      <div>
+        <label for="kiekTaskuSurinkai">Kiek taškų surinkai</label>
+        <input id="kiekTaskuSurinkai" type="number" min="0" max="" />
+      </div>
+      <label for="rezultatas">Tavo balas</label>
+      <div id="rezultatas" class="rezultatas">0</div>
+    </div>
+    <div class="print-list-container">
+      <div id="printList"></div>
+    </div>
+  </body>
+  <script src="balai.js"></script>
+</html>
